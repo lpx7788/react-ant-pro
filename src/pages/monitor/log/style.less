@@ -1,0 +1,20 @@
+@import '~antd/es/style/themes/default.less';
+
+.LogPage {
+  background: #fff;
+  padding: 20px;
+  .params,.method{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    width: 300px;
+  }
+  .pageHeader{
+    :global {
+      .ant-input{
+        width:30%;
+      }
+    }
+  }
+}

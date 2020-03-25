@@ -1,0 +1,28 @@
+.categoryMultiple{
+    position: relative;
+    .closeIcon{
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.25);
+        margin-left: 5px;
+    }
+    .closeIcon:hover{
+        color: rgba(0, 0, 0, 0.65);
+    }
+    .content{
+        width: 290px;
+        position: absolute;
+        top: -1px;
+        z-index: 99;
+    }
+    :global{
+        .ant-select{
+            width: 90%;
+        }
+        .cascader{
+            width: 1px;
+            i{
+                display: none;
+            }
+        }
+    }
+}

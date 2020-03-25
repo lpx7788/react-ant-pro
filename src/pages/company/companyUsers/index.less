@@ -1,0 +1,19 @@
+.companyUsers{
+    background-color: #fff;
+    padding: 20px;
+    header{
+        .search{
+            width: 400px;
+        }
+        :global{
+            .fl:not(:first-child){
+                margin-left: 10px;
+            }
+        }
+    }
+    header:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
